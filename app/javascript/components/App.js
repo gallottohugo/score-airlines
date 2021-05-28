@@ -10,13 +10,6 @@ const App = () => {
             <Route exact path="/airlines/:slug" component={Airline} />
         </Switch>
     )
-    /*return (
-        <center>
-            <div>
-                Hello World!
-            </div>
-        </center>  
-    )*/
 }
 
 export default App
